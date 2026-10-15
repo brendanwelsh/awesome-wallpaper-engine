@@ -23,6 +23,7 @@ This is an unofficial, community-maintained list and is not affiliated with the 
   - [Run Wallpaper Engine content](#run-wallpaper-engine-content)
   - [GUIs & frontends](#guis--frontends)
   - [Wayland](#wayland)
+- [Run content on macOS](#run-content-on-macos)
 - [Open-source alternatives](#open-source-alternatives)
   - [Windows](#windows)
   - [macOS](#macos)
@@ -62,8 +63,9 @@ This is an unofficial, community-maintained list and is not affiliated with the 
 
 - [ilgnefz/we_repkg](https://github.com/ilgnefz/we_repkg) - Cross-platform GUI extractor built on RePKG.
 - [notscuffed/repkg](https://github.com/notscuffed/repkg) - Command-line PKG extractor and TEX-to-image converter; the de facto standard.
-- [TheRioMiner/Wallpaper-Engine-Pkg-to-Zip](https://github.com/TheRioMiner/Wallpaper-Engine-Pkg-to-Zip) - Convert Wallpaper Engine `.pkg` files to `.zip` and back.
+- [TheRioMiner/Wallpaper-Engine-Pkg-to-Zip](https://github.com/TheRioMiner/Wallpaper-Engine-Pkg-to-Zip) - Convert Wallpaper Engine `.pkg` files to `.zip` and back (stale).
 - [trinityhades/WallpaperExtractor](https://github.com/trinityhades/WallpaperExtractor) - macOS project downloader and `.pkg` extractor.
+- [YueFChen/RePKG-Workbench](https://github.com/YueFChen/RePKG-Workbench) - Windows GUI for RePKG to browse, extract, and manage local Workshop projects.
 
 ## Workshop downloaders
 
@@ -74,10 +76,11 @@ Use these to back up wallpapers you own or to fetch assets for the Linux players
 
 ## Creation tools & web wallpapers
 
-- [aleab/acav-we](https://github.com/aleab/acav-we) - Highly customizable audio visualizer web wallpaper.
-- [ChenYCL/single-html](https://github.com/ChenYCL/single-html) - Bundle images and Marmoset 3D models into a single-file web wallpaper.
+- [aleab/acav-we](https://github.com/aleab/acav-we) - Highly customizable audio visualizer web wallpaper (stale).
+- [ChenYCL/single-html](https://github.com/ChenYCL/single-html) - Bundle images and Marmoset 3D models into a single-file web wallpaper (stale).
 - [CSaratakij/Rive2WallpaperEngineTemplate](https://github.com/CSaratakij/Rive2WallpaperEngineTemplate) - Template for importing Rive animations as web wallpapers.
 - [hexxone/audiorbits](https://github.com/hexxone/audiorbits) - Open-source audio-reactive WebGL wallpaper for Wallpaper Engine and Lively.
+- [isshiki-works/wpe-baker](https://github.com/isshiki-works/wpe-baker) - Bakes the periodic animation of a scene into a seamless video loop to cut GPU load.
 - [linsyking/CanvasHelper](https://github.com/linsyking/CanvasHelper) - Canvas-based web wallpaper framework (archived).
 - [spicy-wolf/spine-wallpaper-engine](https://github.com/spicy-wolf/spine-wallpaper-engine) - Spine animation player for web wallpapers (archived).
 
@@ -87,19 +90,20 @@ Use these to back up wallpapers you own or to fetch assets for the Linux players
 
 ## Music & now playing
 
-- [evaera/wallpaper-engine-spotify-helper](https://github.com/evaera/wallpaper-engine-spotify-helper) - Local helper that forwards Spotify now-playing data to web wallpapers.
+- [am1dreaming/Live-Lyrics-for-Wallpaper-Engine](https://github.com/am1dreaming/Live-Lyrics-for-Wallpaper-Engine) - Word-by-word synced Spotify lyrics with cover-art backgrounds.
+- [evaera/wallpaper-engine-spotify-helper](https://github.com/evaera/wallpaper-engine-spotify-helper) - Local helper that forwards Spotify now-playing data to web wallpapers (stale).
 - [secchanu/spotify-wallpaper](https://github.com/secchanu/spotify-wallpaper) - Web wallpaper showing the current Spotify track and album art.
 
 ## RGB lighting & Rainmeter
 
 - [qiangqiang101/OpenRGB-Wallpaper-Engine](https://github.com/qiangqiang101/OpenRGB-Wallpaper-Engine) - Expose your wallpaper as an OpenRGB device to sync lighting.
-- [tjhrulz/MessagePassingForRainmeter](https://github.com/tjhrulz/MessagePassingForRainmeter) - WebSocket plugin for passing messages between Rainmeter and Wallpaper Engine.
+- [tjhrulz/MessagePassingForRainmeter](https://github.com/tjhrulz/MessagePassingForRainmeter) - WebSocket plugin for passing messages between Rainmeter and Wallpaper Engine (stale).
 
 ## Automation, CLI & Stream Deck
 
 - [Command-line controls](https://help.wallpaperengine.io/en/functionality/cli.html) - Official CLI reference for scripting wallpapers, playlists, and properties.
 - [DavisSolomon/Stream-Deck-Wallpaper-Engine](https://github.com/DavisSolomon/Stream-Deck-Wallpaper-Engine) - Switch wallpapers from an Elgato Stream Deck button.
-- [L1nexi/Context-Aware-Wallpaper-Engine-Scheduler](https://github.com/L1nexi/Context-Aware-Wallpaper-Engine-Scheduler) - Schedule playlists by time, weather, and active window.
+- [L1nexi/Wallpaper-Engine-Scheduler](https://github.com/L1nexi/Wallpaper-Engine-Scheduler) - Schedule playlists by time, weather, and active window.
 
 ## OBS & streaming
 
@@ -110,12 +114,17 @@ Use these to back up wallpapers you own or to fetch assets for the Linux players
 ### Run Wallpaper Engine content
 
 - [Almamu/linux-wallpaperengine](https://github.com/Almamu/linux-wallpaperengine) - Core engine that runs real Wallpaper Engine Workshop content on Linux (X11 and wlroots).
+- [Aromatic05/we-layerd](https://github.com/Aromatic05/we-layerd) - Native Wayland runtime for scene, video, and web wallpapers without Wine.
 - [catsout/wallpaper-engine-kde-plugin](https://github.com/catsout/wallpaper-engine-kde-plugin) - KDE Plasma plugin for Wallpaper Engine wallpapers (archived but widely used).
+- [ejalxndr/wallpiper](https://github.com/ejalxndr/wallpiper) - Translation layer that pipes Wallpaper Engine output to a desktop portal on Linux.
+- [waywallen/open-wallpaper-engine](https://github.com/waywallen/open-wallpaper-engine) - Open-source Vulkan scene renderer, mostly for Linux.
 
 ### GUIs & frontends
 
 - [anufrievroman/waypaper](https://github.com/anufrievroman/waypaper) - Wayland and X11 wallpaper manager with a linux-wallpaperengine backend.
 - [AzPepoze/linux-wallpaperengine-gui](https://github.com/AzPepoze/linux-wallpaperengine-gui) - Go and Electron GUI for linux-wallpaperengine.
+- [jagrat7/linux-wallpaper-engine](https://github.com/jagrat7/linux-wallpaper-engine) - Linux app to browse, preview, check compatibility, and apply wallpapers.
+- [liixini/skwd-wall](https://github.com/liixini/skwd-wall) - Wallpaper selector and engine for images, videos, and Wallpaper Engine scenes with wallpaper-based theming.
 - [Maxnights/simple-linux-wallpaperengine-gui](https://github.com/Maxnights/simple-linux-wallpaperengine-gui) - Simple GUI frontend for linux-wallpaperengine.
 - [MikiDevLog/wallpaperengine-gui](https://github.com/MikiDevLog/wallpaperengine-gui) - C++ GUI for linux-wallpaperengine.
 - [slynobody/linux_wallpaper_engine__precompiled](https://github.com/slynobody/linux_wallpaper_engine__precompiled) - Precompiled linux-wallpaperengine builds for common distros.
@@ -127,6 +136,11 @@ Use these to back up wallpapers you own or to fetch assets for the Linux players
 - [mechakotik/openwallpaper](https://github.com/mechakotik/openwallpaper) - Interactive live wallpapers for Wayland, inspired by Wallpaper Engine.
 - [ZreXoc/waywe](https://github.com/ZreXoc/waywe) - Plays Wallpaper Engine videos through mpvpaper on Wayland.
 
+## Run content on macOS
+
+- [laobamac/MirageWallpaper](https://github.com/laobamac/MirageWallpaper) - Live wallpaper engine for macOS supporting web, video, and scene wallpapers.
+- [WallpaperMachine/WallpaperMachine](https://github.com/WallpaperMachine/WallpaperMachine) - Free app that plays Steam Workshop scene, video, and web wallpapers on Apple silicon Macs.
+
 ## Open-source alternatives
 
 Not Wallpaper Engine itself, but free and open-source live-wallpaper apps worth knowing about.
@@ -136,7 +150,7 @@ Not Wallpaper Engine itself, but free and open-source live-wallpaper apps worth 
 - [Francesco149/weebp](https://github.com/Francesco149/weebp) - Minimal engine to set any window or video as a wallpaper (stale).
 - [GiantappMan/livewallpaper](https://github.com/GiantappMan/livewallpaper) - Live and static wallpaper app for Windows 10/11 with a built-in community.
 - [kelteseth/ScreenPlay](https://gitlab.com/kelteseth/ScreenPlay) - Cross-platform live wallpaper, widgets, and app drawer; also free on Steam.
-- [rocksdanister/lively](https://github.com/rocksdanister/lively) - Lively Wallpaper, the leading free alternative (video, web, shader, GIF).
+- [lively-community/lively](https://github.com/lively-community/lively) - Lively Wallpaper, the leading free alternative (video, web, shader, GIF).
 - [SegoCode/AutoWall](https://github.com/SegoCode/AutoWall) - Live wallpapers on Windows 7 through 11, including from the Steam Workshop.
 - [Taiizor/Sucrose](https://github.com/Taiizor/Sucrose) - Versatile interactive wallpaper engine for Windows.
 
